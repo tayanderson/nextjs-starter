@@ -1,9 +1,5 @@
 # Next.js 15 Starter (tailwind) [[LIVE DEMO](https://nextjs-15-starter-tailwind.vercel.app/)]
 
-*This is the Tailwind version for Next.js 15 Starter, you may be interested in other templates too -*
-- [**Next.js 15 Starter Core**](https://github.com/SiddharthaMaity/nextjs-15-starter-core)
-- [**Next.js 15 Starter with Shadcn UI**](https://github.com/SiddharthaMaity/nextjs-15-starter-shadcn)
-
 Welcome to the **Next.js 15 Starter** repository! This starter template is built with Next.js 15, React 19, TypeScript 5, Tailwind CSS 4 and comes packed with several powerful tools and configurations to accelerate your project setup and streamline development workflows using VS Code.
 
 ![Next.js 15 Starter](public/images/screenshot.png)
@@ -64,7 +60,6 @@ To enhance development experience, install the following VS Code extensions:
 ### Prerequisites
 
 - **Node.js**: Version 20.18.0 or higher
-- **Docker**: For containerized deployment (optional but recommended)
 
 ### Installation
 
@@ -92,16 +87,7 @@ To enhance development experience, install the following VS Code extensions:
     ```bash
     npm run build
     ```
-
-### 🐳 Docker Setup
-
-To use Docker, make sure Docker is installed on your machine. Then, build and run the Docker container:
-
-```bash
-docker build -t nextjs-starter .
-docker run -p 3000:3000 nextjs-starter
-```
-
+    
 ### ☁ Try it in the Cloud
 
 [![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/SiddharthaMaity/nextjs-15-starter-tailwind)
